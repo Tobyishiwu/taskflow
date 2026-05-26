@@ -84,10 +84,11 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': True,
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
-
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://localhost:4000',
+    'https://taskflow-eight-weld.vercel.app',
+    'https://taskflow-gateway.onrender.com',
 ]
 CORS_ALLOW_CREDENTIALS = True
 
